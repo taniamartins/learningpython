@@ -7,3 +7,6 @@ UM MOOC on Python
 <br>(3) Celsius to Fahrenheit Converter</br>
 <br>(4) CondPay</br>
 <br>(5) TryPay</br>
+
+<br>13 November 2019:</br>
+<br>(6) Grade</br>
