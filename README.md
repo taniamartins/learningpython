@@ -10,3 +10,6 @@ UM MOOC on Python
 
 <br>13 November 2019:</br>
 <br>(6) Grade</br>
+
+<br>14 November 2019:</br>
+<br>(7) Lb to Kg Converter</br>
