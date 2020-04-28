@@ -1,0 +1,11 @@
+#create a program that calculates how many cans of cat food you need to feed 10 cats
+use string formatting instead of joining strings with ​ + ​#
+
+cats = 10
+can_per_day = 2
+
+one_week = cats * can_per_day * 7
+
+msg = "The {} cats eat {} cans in a week!".format(cats, one_week)
+
+print(msg)
