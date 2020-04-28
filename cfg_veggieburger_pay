@@ -1,4 +1,4 @@
-#write a program to calculate your meal and apply a discount if applicable#
+#write a program to calculate your meal and apply a discount if applicable
 
 meal_price = float(input('How much did the meal cost? '))
 discount_applicable = float(meal_price) > 20.00
