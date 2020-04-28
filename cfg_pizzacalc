@@ -1,0 +1,7 @@
+#you have friends at your house for dinner and you've accidentally burnt the lasagne; time to
+order pizza. Write a program to calculate how many pizzas you need to feed you and your friends#
+
+friends = int(input("How many friends do you have over? "))
+pizzas = friends * 0.5
+
+print('You need {} pizzas for {} friends'.format(pizzas, friends))
