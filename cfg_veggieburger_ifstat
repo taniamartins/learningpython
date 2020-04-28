@@ -1,0 +1,16 @@
+#rewrite the output of your burger program to use if statements#
+
+restaurant = input('Does the restaurant have a vegetarian option? y/n ')
+price = input('How much does the burger cost? ')
+rating = input('What is the restaurant rating? ')
+
+vegetarian = restaurant == 'y' or 'Y'
+within_budget = float(price) <= 10.00
+good_rating = float(rating) >= 3.00
+
+have_burger = vegetarian and within_budget and good_rating
+
+if have_burger:
+    print('You should eat that burger!')
+if not have_burger:
+    print('You should NOT eat that burger!')
