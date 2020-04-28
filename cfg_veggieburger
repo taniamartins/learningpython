@@ -1,0 +1,14 @@
+#you have a budget of £10 and want to write a program to decide which burger restaurant to go
+to. Add code to your burger program to input whether the restaurant has a vegetarian option
+The output should say whether the cost is within budget ​ AND​ has a vegetarian option#
+
+restaurant = input('Does the restaurant have a vegetarian option? y/n ')
+price = input('How much does the burger cost? ')
+rating = input('What is the restaurant rating? ')
+
+vegetarian = restaurant == 'y'
+within_budget = float(price) <= 10.00
+good_rating = float(rating) >= 3.00
+
+have_burger = vegetarian and within_budget and good_rating
+print('You should eat that burger: {}'.format(have_burger))
