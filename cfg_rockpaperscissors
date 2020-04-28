@@ -1,0 +1,14 @@
+import random
+
+def game ():
+    random_integer = random.randint(1, 3)
+    if random_integer == 1 :
+        side = 'rock'
+    if random_integer == 2 :
+        side = 'paper'
+    else :
+        side = 'scissors'
+    return side
+
+result = game()
+print(game)
