@@ -1,0 +1,14 @@
+#write a program to check that the oven is at the right temperature#
+
+if temperature > 200:
+    print('That is oven is too hot!')
+elif temperature < 150:
+    print('The oven is too cold!')
+elif temperature == 180:
+    print('Perfect! Enjoy the pizza!')
+else:
+    print('Close enough... Enjoy the soggy pizza...')
+
+cmd = input("Please input a command: ")
+cmd = cmd.replace(" ","")
+print(cmd)
