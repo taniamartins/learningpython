@@ -1,0 +1,7 @@
+#write a program that asks two questions using ​ input()​ then prints the values that were entered. 
+You can choose any questions that you want#
+
+food = input("What's your favourite food? ")
+animal = input("What's our favourite animal? ")
+
+print('You like {}?! Yuck!, BUT {} are so cuteeeeeeeeeeeeeeeee!'.format(food, animal))
