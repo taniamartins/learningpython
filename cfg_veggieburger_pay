@@ -1,0 +1,13 @@
+#write a program to calculate your meal and apply a discount if applicable#
+
+meal_price = float(input('How much did the meal cost? '))
+discount_applicable = float(meal_price) > 20.00
+
+if discount_applicable :
+    meal_price = meal_price * 0.9
+    print("Discount applied!")
+
+else :
+    print ("No discount. Sorry!")
+
+print ("You meal costs {}".format (meal_price))
