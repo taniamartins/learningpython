@@ -1,10 +1,10 @@
 # learningpython
-UM MOOC on Python
+UM MOOC - Python for Everybody
 
-<br>(1) Hello you!</br>
-<br>(2) Pay</br>
-<br>(3) Celsius to Fahrenheit Converter</br>
-<br>(4) CondPay</br>
+(1) Hello you!
+(2) Pay
+(3) Celsius to Fahrenheit Converter
+(4) CondPay
 <br>(5) TryPay</br>
 <br>(6) Grade</br>
 <br>(7) Lb to Kg Converter</br>
